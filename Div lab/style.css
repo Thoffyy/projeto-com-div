@@ -1,0 +1,146 @@
+body {
+
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+
+  margin: 2em;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.topnav {
+
+  background-color: #333333;
+  overflow: auto;
+  border-radius: 10px ;
+}
+
+.topnav a {
+
+  color: #ffffff;
+  text-decoration: none;
+  padding: 14px 16px;
+  display: block;
+  float: left;
+  text-align:center;
+  border-radius: 10px;
+  
+}
+
+.banner {
+
+  background-color: #94cea5;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+  color: #333333;
+  border-radius: 10px ;
+}
+
+
+.container {
+
+  background-color: #ffffff;
+  overflow: auto;
+  
+}
+
+
+
+.menu {
+
+ 
+  width: 20%;
+
+  float: left;
+
+  text-align: center;
+
+
+}
+
+.menu a {
+
+  background-color: #a49cc7;
+
+  text-decoration: none;
+
+  width: 100%;
+
+  padding: 8px;
+
+  display: block;
+
+  margin-top: 7px;
+
+  color: #000000;
+
+  border-radius: 5px;
+
+}
+
+
+
+.main {
+
+  width: 60%;
+
+  padding: 0 20px;
+
+  float: left;
+
+  
+
+}
+
+
+.right {
+
+  background-color: #e6e4a3;
+
+  width: 20%;
+
+  padding: 15px;
+
+  float: left;
+
+  margin-top: 7px;
+
+  text-align: center;
+
+  border-radius: 10px ;
+
+  
+}
+
+
+.footer {
+
+  background-color: #dddddd;
+
+  padding: 10px;
+
+  margin-top:7px;
+
+  text-align: center;
+
+  border-radius: 10px ;
+}
+
+
+
+
+
+@media only screen and (max-width: 620px) {
+
+  .menu, .main, .right {
+
+    width: 100%;
+
+  }
+
+}
